@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-screen">
     <head>
         <meta charset="UTF-8" />
         <link rel="icon" type="image" href="./src/images/associacao_skate_logo.jpg" />
@@ -8,22 +8,27 @@
         <title>A.S.C.S</title>
     </head>
     <header class="font-title">
-        <nav class="bg-black h-[35vw] w-screen flex justify-between items-center lg:h-[20vw]">
+        <nav class="bg-black h-[35vw] w-screen flex justify-between items-center lg:h-[20vw] md:h-[25vw]">
             <div>
-                <img src="./src/images/associacao_skate_logo.jpg" alt="instagram" class="lg:h-[20vw] h-[35vw]">
+                <img src="./src/images/associacao_skate_logo.jpg" alt="instagram" class="lg:h-[20vw] h-[35vw] md:h-[25vw]">
             </div>
-            <div class="pr-[5vh] flex-col text-center lg:pr-[10vh]">
-                <h1 class="text-[20px] text-white lg:text-[3vw]">Associação de
+            <div class="pr-[5vh] flex-col text-center lg:pr-[10vh] md:pr-[10vh]">
+                <h1 class="text-[20px] text-white lg:text-[3vw] md:text-[4vw]">Associação de
                     Skatistas de <p></p>Cocal do Sul</h1>
-                <button class="bg-green-500 w-[20vw] h-[6vw] rounded hover:w-[] lg:w-[18vw] lg:h-[3vw]">
+                <button class="bg-green-500 w-[20vw] h-[6vw] rounded lg:hover:scale-110 duration-300 lg:w-[18vw] lg:h-[3vw] md:w-[30vw] md:h-[4vw]">
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLScEsKcJ7poT0y64TFfrsDxG5u3K6ncB0wbLmaLf8n4gqkLVng/viewform" 
-                    target="_blank" class="text-[3vw] align-middle lg:text-[2vw]">Faça Parte</a>
+                    target="_blank" class="text-[3vw] align-middle lg:text-[2vw] md:text-[2vw]">Faça Parte</a>
                 </button>
             </div>
         </nav>
     </header>
-    <body>
+    <body class="font-title h-screen">
         <div id="root"></div>
         <script type="module" src="/src/main.tsx"></script>
     </body>
+    <footer class="bg-black text-3xl text-white text-center flex bottom-0 w-screen">
+        <div class="wrap flex-col">
+            <img src="./src/images/instagram_logo.png" alt="" class="h-[100px]">
+        </div>
+    </footer>
 </html>

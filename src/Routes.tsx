@@ -4,13 +4,13 @@ import {
     Route,
 } from "react-router-dom";
 
-import {Cart} from './pages/Cart'
+import {LandPage} from './pages/LandPage'
 
 export default function AppRoutes() {
     return (
         <Router>
             <Routes>
-                <Route path="/cart" element={<Cart/>} />
+                <Route path="/" element={<LandPage/>} />
             </Routes>
         </Router>
     );

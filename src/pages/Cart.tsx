@@ -1,9 +1,0 @@
-import { useState } from 'react'
-
-export function Cart() {
-    return (
-        <div>
-            <h1>Cart</h1>
-        </div >
-    )
-};

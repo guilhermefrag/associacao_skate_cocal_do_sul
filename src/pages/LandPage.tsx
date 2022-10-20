@@ -1,0 +1,70 @@
+import { useState } from 'react'
+
+export function LandPage() {
+    return (
+        <div className="flex">
+            <div>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+                <p>asdasd</p>
+                <br></br>
+            </div>            
+        </div>
+    )
+};
