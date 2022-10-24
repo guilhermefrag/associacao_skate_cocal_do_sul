@@ -5,6 +5,36 @@ export function LandPage() {
         <div className="flex">
             <div>
                 <img src="" alt="" />
+                <p>asd</p>
+                <br />
+                <p>asd</p>
+                <br />
+                <p>asd</p>
+                <br />
+                <p>asd</p>
+                <br />
+                <p>asd</p>
+                <br />
+                <p>asd</p>
+                <br />
+                <p>asd</p>
+                <br />
+                <p>asd</p>
+                <br />
+                <p>asd</p>
+                <br />
+                <p>asd</p>
+                <br />
+                <p>asd</p>
+                <br />
+                <p>asd</p>
+                <br />
+                <p>asd</p>
+                <br />
+                <p>asd</p>
+                <br />
+                <p>asd</p>
+                <br />
             </div>            
         </div>
     )
