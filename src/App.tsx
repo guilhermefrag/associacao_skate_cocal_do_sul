@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Tweet } from './components/Tweet'
+import { LandPageMain } from './components/LandPageMain'
 import AppRoutes from './Routes'
 
 function App() {

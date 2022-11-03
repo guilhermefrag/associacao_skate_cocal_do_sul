@@ -1,5 +1,23 @@
 import { useState } from 'react'
+import { MainProps } from '../components/LandPageMain'
+
 import pista_skate_cocal from '../images/pista_skate_cocal.jpeg'
+
+const [content, setContent] = useState<MainProps[]>([
+    {
+        image: {pista_skate_cocal},
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt facere est itaque doloribus numquam a repellendus sed iste placeat ullam explicabo, voluptas tempore dolores quia, corrupti quos dignissimos, totam quo? Minima officiis dignissimos ratione? Similique sequi nam, numquam, assumenda debitis porro quis maiores dolore fuga odio soluta ut beatae non illo deleniti cumque! Pariatur incidunt delectus, cum dolor minima explicabo!',
+    },
+    {
+        image: {pista_skate_cocal},
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt facere est itaque doloribus numquam a repellendus sed iste placeat ullam explicabo, voluptas tempore dolores quia, corrupti quos dignissimos, totam quo? Minima officiis dignissimos ratione? Similique sequi nam, numquam, assumenda debitis porro quis maiores dolore fuga odio soluta ut beatae non illo deleniti cumque! Pariatur incidunt delectus, cum dolor minima explicabo!',
+    },
+    {
+        image: {pista_skate_cocal},
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt facere est itaque doloribus numquam a repellendus sed iste placeat ullam explicabo, voluptas tempore dolores quia, corrupti quos dignissimos, totam quo? Minima officiis dignissimos ratione? Similique sequi nam, numquam, assumenda debitis porro quis maiores dolore fuga odio soluta ut beatae non illo deleniti cumque! Pariatur incidunt delectus, cum dolor minima explicabo!',
+    }
+])
+
 
 export function LandPage() {
     return (
