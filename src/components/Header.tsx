@@ -1,3 +1,6 @@
+
+import associacao_skate_logo from "../images/associacao_skate_logo.jpeg";
+
 export default function Header() {
   return (
     <div>
@@ -5,7 +8,7 @@ export default function Header() {
         <nav className="bg-black flex flex-wrap justify-center items-center text-center">
           <div className="w-full md:w-auto">
             <img
-              src="./src/images/associacao_skate_logo.jpg"
+              src={associacao_skate_logo}
               alt="instagram"
               className="w-full h-auto md:h-[25vw] lg:h-[20vw]"
             />

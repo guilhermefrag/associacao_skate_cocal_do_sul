@@ -1,4 +1,3 @@
-import { useState } from "react";
 import pista_skate_cocal from "../images/pista_skate_cocal.jpeg";
 
 export function LandPage() {
